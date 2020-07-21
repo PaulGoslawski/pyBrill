@@ -1022,5 +1022,9 @@ bMmenu = Button(Toolbar,text='Menu',font=Myfont,
 
 bMmenu.pack(side=LEFT)
 
-_setup()
-_pbrill()
+def main():
+    _setup()
+    _pbrill()
+
+if __name__ == "__main__":
+    main()
